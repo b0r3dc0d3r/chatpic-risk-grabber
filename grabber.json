@@ -1,0 +1,11 @@
+{
+  "room": "15min",
+  "splitByOwner": true,
+  "keywords": [
+    "risk",
+    "10s",
+    "5s",
+    "3s"
+  ],
+  "saveAllMedia": true
+}
