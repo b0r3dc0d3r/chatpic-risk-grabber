@@ -2,6 +2,13 @@
 
 automatically grab pictures tagged with custom keywords from chatpic.org rooms
 
+### features
+
+- auto-save media from selected room
+- filter media by owner
+- `experimental` media classification on `photo` type
+- `experimental` face matching to find people in posted photos
+
 ### instructions
 
 - install nodejs
@@ -26,6 +33,11 @@ const CP_GRABBER_OPTIONS: CPGrabberOptions = {
   saveAllMedia: false, // set true to disable keywords filter and save all media
 };
 ```
+
+### face-matching
+
+to allow face matching to work add pictures of well defined faces under the `samples/` folder,
+best matches will be saved under `saves/_SUPERRISK` folder
 
 ### license
 

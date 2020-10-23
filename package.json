@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^2.6.0",
+    "@tensorflow/tfjs-node": "^1.7.0",
+    "@tensorflow/tfjs-node-gpu": "^1.7.0",
+    "axios": "^0.20.0",
+    "canvas": "^2.6.1",
+    "face-api.js": "^0.22.2",
     "node-fetch": "^2.6.1",
     "nsfwjs": "^2.2.0",
     "socket.io-client": "^2.3.1",
